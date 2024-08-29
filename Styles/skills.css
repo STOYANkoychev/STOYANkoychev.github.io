@@ -1,0 +1,23 @@
+/* skills.css */
+#skills {
+  padding: 20px;
+  background-color: #c4c4c4;
+}
+
+#skills h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+#skills .skill {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#skills .skill p {
+  font-size: 18px;
+  text-align: center;
+}

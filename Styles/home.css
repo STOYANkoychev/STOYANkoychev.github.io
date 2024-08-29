@@ -1,0 +1,19 @@
+/* home.css */
+#home {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#home h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+#home p {
+  text-align: center;
+  font-size: 18px;
+}
+
+#home .section-content {
+  text-align: center;
+}

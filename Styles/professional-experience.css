@@ -1,0 +1,33 @@
+/* professional-experience.css */
+#professional-experience {
+  padding: 20px;
+  background-color: #d4d4d4;
+}
+
+#professional-experience .company {
+  position: relative;
+  width: 150px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#professional-experience img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#professional-experience .info {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#professional-experience .company.active .info {
+  display: block;
+}

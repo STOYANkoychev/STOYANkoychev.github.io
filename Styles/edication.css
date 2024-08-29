@@ -1,0 +1,24 @@
+/* education.css */
+#education {
+  padding: 20px;
+  background-color: #e4e4e4;
+}
+
+#education h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+#education .entry {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#education .entry h3 {
+  font-size: 20px;
+}
+
+#education .entry p {
+  font-size: 16px;
+}
