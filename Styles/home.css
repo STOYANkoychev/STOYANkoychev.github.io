@@ -1,19 +1,30 @@
-/* home.css */
-#home {
-  padding: 20px;
-  background-color: #e1a3a3;
+.home-content {
+  background-image: url('/Images/City\ .png');
+  background-size: contain;
+  max-width: max-content;
+  margin: auto;
+  padding: 50px;
 }
 
-#home h2 {
+.text-info-home {
   text-align: center;
-  font-size: 28px;
+  margin: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  text-shadow: 5px;
+
+  border: 3px solid #260641;
+  border-radius: 10px;
 }
 
-#home p {
-  text-align: center;
-  font-size: 18px;
-}
+.social-icons {
+  display: flex;
+  margin: 50px;
 
-#home .section-content {
-  text-align: center;
+  justify-content: center;
+}
+.social-icons a {
+  margin: 50px;
+  text-decoration: none;
+  color: #0f0a37;
 }

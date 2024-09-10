@@ -26,3 +26,24 @@ document.addEventListener('DOMContentLoaded', () => {
   // Load default section
   sections.home();
 });
+
+// Вземи бутона и SVG контейнера
+const homeButton = document.getElementsById('homeButton');
+const svgContainer = document.getElementById('svgContainer');
+const animatedSVG = document.getElementById('animatedSVG');
+
+// Слушай за клик върху бутона "Home"
+homeButton.addEventListener('click', function () {
+  // Покажи SVG контейнера
+  svgContainer.classList.remove('hidden');
+
+  // Добави клас за стартиране на анимацията
+  animatedSVG.classList.add('animate');
+
+  // Изчакай времето за анимация (1 секунда) и след това скрий SVG
+  setTimeout(function () {
+    // Скрий SVG след анимацията
+    svgContainer.classList.add('hidden');
+    animatedSVG.classList.remove('animate');
+  }, 2000); // Продължителност на анимацията
+});

@@ -1,5 +1,5 @@
 html {
-  background-image: url('/Images/1.png');
+  background-image: url('/Images/1Header.png');
   background-size: auto;
   background-position: center;
 }
@@ -11,17 +11,51 @@ body {
 }
 
 .header {
-  background-image: url('/Images/1.png');
+  font-family: 'Titillium Web', sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  font-style: normal;
+  background-image: url('/Images/1Header.png');
   background-size: auto;
   background-position: center;
   color: #fff;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 
-.header img {
-  width: 100px;
-  border-radius: 50%;
+.name-container {
+  display: flex;
+  flex-direction: row; /* Подреждане на елементите в ред (хоризонтално) */
+  justify-content: center; /* Центриране по хоризонталата */
+  align-items: center; /* Вертикално центриране на елементите */
+  gap: 150px; /* Разстояние между елементите */
+  flex-wrap: wrap; /* Ако екранът е твърде тесен, елементите ще се подредят един под друг */
+  padding: 20px; /* Допълнително разстояние около контейнера */
+}
+.name-container img {
+  max-width: 100%; /* Прави изображенията responsive */
+  height: auto; /* Автоматично определяне на височината за запазване на пропорциите */
+  width: 150px; /* Примерна фиксирана ширина, можеш да я настроиш */
+  border-radius: 5%; /* Закръглени ръбове на снимките */
+}
+
+.name-container h1 {
+  font-size: 2rem; /* Размер на шрифта */
+  text-align: center; /* Центриране на текста */
+}
+@media (max-width: 768px) {
+  .name-container,
+  .social-icons {
+    flex-direction: column; /* Подреждане вертикално на малки екрани */
+  }
+
+  .name-container img {
+    width: 100px; /* Намаляване на размера на изображенията за по-малки екрани */
+  }
+
+  .name-container h1 {
+    font-size: 1.5rem; /* Намаляване на размера на текста за по-малки екрани */
+  }
 }
 
 .sections {
@@ -31,6 +65,7 @@ body {
 .section-link {
   display: inline-block;
   margin: 0 10px;
+
   cursor: pointer;
   color: #fff;
 }
@@ -41,35 +76,8 @@ body {
 
 .content {
   padding: 100px;
-  background-color: #a9a4a4;
-}
 
-.center-text {
-  text-align: center;
-}
-
-.social-icons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.social-icons a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-.social-icons a:hover {
-  text-decoration: underline;
-}
-
-.home-content {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: #f9f9f9;
+  background-image: url('/Images/4.png');
 }
 
 .skills-box {
@@ -98,7 +106,7 @@ body {
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background-color: #4caf50;
+  background-color: #487b80;
 }
 
 .education-list,
@@ -139,7 +147,7 @@ form button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: #1b256b;
   color: #fff;
   border: none;
   border-radius: 5px;

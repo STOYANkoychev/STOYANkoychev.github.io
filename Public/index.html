@@ -13,16 +13,30 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/Styles/home.css" />
+
     <script defer src="main.js"></script>
   </head>
   <body>
     <div class="home-panel">
       <div class="header">
-        <img src="images/your_photo.jpg" alt="Profile Photo" />
-        <h1>Stoyan Koychev</h1>
+        <div class="name-container">
+          <img src="/Images/Dark Modern Photography Portfolio.svg" alt="Portfolio" />
+          <h1>STOYAN KOYCHEV</h1>
+          <img src="/Images/My Photo3.png" alt="Profile Photo" />
+        </div>
         <div class="sections">
-          <div class="section-link" data-section="home">Home</div>
+          <div class="section-link" data-section="home" id="homeButton">Home</div>
           <div class="section-link" data-section="education">Education</div>
           <div class="section-link" data-section="professional-experience">Professional Experience</div>
           <div class="section-link" data-section="skills">Skills</div>
@@ -31,6 +45,7 @@
         </div>
       </div>
     </div>
+
     <div class="content" id="content"></div>
 
     <script src="script.js"></script>
