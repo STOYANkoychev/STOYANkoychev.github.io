@@ -1,0 +1,44 @@
+.education-list {
+  background-image: url('/Images/City\ .png');
+  display: flexbox;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px rgb(30, 24, 24);
+  border-radius: 50px;
+}
+
+.text_education {
+  display: flexbox;
+
+  text-align: center;
+
+  text-decoration: underline;
+  padding: 5px; /* По желание: добавя малко разстояние вътре в границата */
+  margin: 2 auto;
+}
+.course-name {
+  margin: 2px;
+}
+.certificate-link {
+  margin: 2px;
+  font-size: 100%;
+  color: #4050ff;
+}
+.certificate-link i {
+  margin-left: 5px; /* Adds spacing between text and icon */
+}
+.yearGrad {
+  padding: 10px;
+  margin: 5px;
+  text-decoration: underline;
+  font-size: 120%;
+}
+.school {
+  padding: 8px;
+  font-size: 120%;
+  font-style: bold;
+}
+.list-group {
+  display: inline-table;
+  margin-left: 50px;
+}

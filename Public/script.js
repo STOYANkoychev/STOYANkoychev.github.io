@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // Load default section
   sections.home();
 });
+

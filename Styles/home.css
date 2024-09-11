@@ -10,10 +10,11 @@
 
 .text-info-home {
   text-align: center;
-  margin: 50px;
+  margin: 100px;
   margin-top: 10px;
   padding: 5px;
   text-shadow: 5px;
+  font-size: large;
 }
 
 .social-icons {
@@ -27,7 +28,7 @@
   text-decoration: none;
   color: #0f0a37;
 }
-.home-content h1 {
+.home-content h2 {
   text-align: center;
   text-decoration: underline;
 

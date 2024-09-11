@@ -1,32 +1,74 @@
 export default function (content) {
   content.innerHTML = `
-        <h2>Education</h2>
-        <ul class="education-list">
+        <h2 class="text_education">Education</h2>    
+       <ul class="education-list"> 
             <li>
-                <span>2023 - Present</span>
-                <div>Software University "SoftUni" - QA Engineer Path</div>
+                <span class="yearGrad">2023 - Present</span>
+                <div  class="school">Software University "SoftUni" - QA Engineer</div>
                 <ul>
-                    <li>QA-BASIC <a href="certificate-link.jpg">Certificate</a></li>
-                    <li>Software Technology <a href="certificate-link.jpg">Certificate</a></li>
-                    <li>QA-Fundamental and Manual Testing <a href="certificate-link.jpg">Certificate</a></li>
-                    <li>Programming Fundamentals and Unit Testing <a href="certificate-link.jpg">Certificate</a></li>
-                    <li>Programming Advanced for QA <a href="certificate-link.jpg">Certificate</a></li>
-                    <li>Front-End Technologies Basics <a href="certificate-link.jpg">Certificate</a></li>
-                    <li>Front-End Test Automation <a href="certificate-link.jpg">Certificate</a></li>
-                </ul>
+  <li>
+    <span class="course-name">QA-BASIC</span>
+    
+    <a href="https://softuni.bg/certificates/details/177093/717048d5" class="certificate-link">
+      Certificate <i class="fas fa-book-reader"></i>
+    </a>
+  </li>
+  <li>
+    <span class="course-name">Software Technology</span>
+    <a href="https://softuni.bg/certificates/details/191444/179b2541" class="certificate-link">
+      Certificate <i class="fas fa-book-reader"></i>
+    </a>
+  </li>
+  <li>
+    <span class="course-name">QA-Fundamental and Manual Testing</span>
+    <a href="https://softuni.bg/certificates/details/200565/a80bb8ab" class="certificate-link">
+      Certificate <i class="fas fa-book-reader"></i>
+    </a>
+  </li>
+  <li>
+    <span class="course-name">Programming Fundamentals and Unit Testing</span>
+    <a href="certificate-link.jpg" class="certificate-link">
+      Certificate <i class="fas fa-book-reader"></i>
+    </a>
+  </li>
+  <li>
+    <span class="course-name">Programming Advanced for QA</span>
+    <a href="https://softuni.bg/certificates/details/212922/ba082926" class="certificate-link">
+      Certificate <i class="fas fa-book-reader"></i>
+    </a>
+  </li>
+  <li>
+    <span class="course-name">Front-End Technologies Basics</span>
+    <a href="https://softuni.bg/certificates/details/220303/828377c4" class="certificate-link">
+      Certificate <i class="fas fa-book-reader"></i>
+    </a>
+  </li>
+  <li>
+    <span class="course-name">Front-End Test Automation</span>
+    <a href="certificate-link.jpg" class="certificate-link">
+      Certificate <i class="fas fa-book-reader"></i>
+    </a>
+  </li>
+</ul>
+
+ 
+
             </li>
             <li>
-                <span>1999 - 2001</span>
-                <div>College of Telecommunications and Posts - Bachelor's in Communication and Computer Technology</div>
+                <span class="yearGrad">1999 - 2001</span>
+                <div  class="school">University of Telecommunications and Post - Bachelor's in Communication and Computer Technology</div>
+                
+               
             </li>
             <li>
-                <span>1995 - 1998</span>
-                <div>Technical School of Mining Industry - Automation of Production</div>
+                <span class="yearGrad">1995 - 1998</span>
+                <div  class="school">Technical School of Mining Industry - Automation of Production</div>
             </li>
             <li>
-                <span>1989 - 1994</span>
-                <div>Nesho Bonchev High School</div>
+                <span class="yearGrad">1989 - 1994</span>
+                <div  class="school">Nesho Bonchev High School</div>
             </li>
         </ul>
+
     `;
 }

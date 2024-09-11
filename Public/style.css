@@ -105,14 +105,12 @@ body {
   background-color: #487b80;
 }
 
-.education-list,
 .experience-list,
 .projects-list {
   list-style: none;
   padding: 0;
 }
 
-.education-list li,
 .experience-list li,
 .projects-list .project {
   margin-bottom: 20px;
