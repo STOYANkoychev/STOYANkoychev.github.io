@@ -15,9 +15,9 @@ body {
   font-size: x-large;
   font-weight: 500;
   font-style: normal;
-  background-image: url('/Images/1Header.png');
-  background-size: auto;
-  background-position: center;
+  background-image: url('/Images/Header1.png');
+  background-size: 80%;
+
   color: #fff;
   padding: 5px;
   text-align: center;
@@ -26,23 +26,19 @@ body {
 .name-container {
   display: flex;
   flex-direction: row; /* Подреждане на елементите в ред (хоризонтално) */
-  justify-content: center; /* Центриране по хоризонталата */
-  align-items: center; /* Вертикално центриране на елементите */
-  gap: 150px; /* Разстояние между елементите */
+
   flex-wrap: wrap; /* Ако екранът е твърде тесен, елементите ще се подредят един под друг */
-  padding: 20px; /* Допълнително разстояние около контейнера */
+  padding: 1px; /* Допълнително разстояние около контейнера */
 }
 .name-container img {
+  margin-left: 100px;
+  margin-top: 10px;
   max-width: 100%; /* Прави изображенията responsive */
   height: auto; /* Автоматично определяне на височината за запазване на пропорциите */
-  width: 150px; /* Примерна фиксирана ширина, можеш да я настроиш */
-  border-radius: 5%; /* Закръглени ръбове на снимките */
+  width: 160px; /* Примерна фиксирана ширина, можеш да я настроиш */
+  border-radius: 50%; /* Закръглени ръбове на снимките */
 }
 
-.name-container h1 {
-  font-size: 2rem; /* Размер на шрифта */
-  text-align: center; /* Центриране на текста */
-}
 @media (max-width: 768px) {
   .name-container,
   .social-icons {
@@ -64,10 +60,10 @@ body {
 
 .section-link {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
 
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
 }
 
 .section-link:hover {
