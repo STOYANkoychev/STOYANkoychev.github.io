@@ -1,0 +1,17 @@
+.title-prof-experience {
+  display: flexbox;
+
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+#dmsImage {
+  max-width: 100%; /* Прави изображенията responsive */
+  width: 150px; /* Примерна фиксирана ширина, можеш да я настроиш */
+  height: auto; /* Автоматично определяне на височината за запазване на пропорциите */
+}
+.job-description h3 {
+  font-size: large;
+  text-decoration: underline;
+}
