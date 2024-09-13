@@ -1,0 +1,38 @@
+.skills-title {
+  display: inline-flexbox;
+
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.skills-box {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  background-image: url('/Images/City\ .png');
+  background-position: top;
+}
+
+.skill {
+  margin-bottom: 25px;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+}
+
+.skill-level {
+  display: flexbox;
+  height: 100%;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #4f778a;
+}

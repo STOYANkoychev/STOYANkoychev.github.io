@@ -76,35 +76,6 @@ body {
   background-image: url('/Images/4.png');
 }
 
-.skills-box {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-}
-
-.skill {
-  margin-bottom: 15px;
-}
-
-.skill-bar {
-  background-color: #ddd;
-  border-radius: 5px;
-  overflow: hidden;
-  position: relative;
-  height: 30px;
-}
-
-.skill-level {
-  height: 100%;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background-color: #487b80;
-}
-
 .experience-list,
 .projects-list {
   list-style: none;
