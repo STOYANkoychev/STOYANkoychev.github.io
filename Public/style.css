@@ -98,27 +98,3 @@ body {
   display: block;
   margin-bottom: 10px;
 }
-
-form input,
-form textarea {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-form button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #1b256b;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-form button:hover {
-  background-color: #45a049;
-}

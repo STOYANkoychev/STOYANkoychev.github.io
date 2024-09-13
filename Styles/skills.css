@@ -11,7 +11,7 @@
   margin: 0 auto;
   padding: 50px;
   border: 1px solid #ccc;
-  border-radius: 100px;
+  border-radius: 10px;
   background-image: url('/Images/City\ .png');
   background-position: top;
 }
