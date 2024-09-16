@@ -1,0 +1,32 @@
+.header {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  font-style: normal;
+  background-image: url('/Images/Header1.png');
+  background-size: 80%;
+
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row; /* Подреждане на елементите в ред (хоризонтално) */
+
+  flex-wrap: wrap; /* Ако екранът е твърде тесен, елементите ще се подредят един под друг */
+  padding: 1px; /* Допълнително разстояние около контейнера */
+}
+.name-container img {
+  margin-left: 100px;
+  margin-top: 10px;
+  max-width: 100%; /* Прави изображенията responsive */
+  height: auto; /* Автоматично определяне на височината за запазване на пропорциите */
+  width: 160px; /* Примерна фиксирана ширина, можеш да я настроиш */
+  border-radius: 50%; /* Закръглени ръбове на снимките */
+}
+
+.sections {
+  margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .name-container,
+  .social-icons {
+    flex-direction: column; /* Подреждане вертикално на малки екрани */
+  }
+
+  .name-container img {
+    width: 100px; /* Намаляване на размера на изображенията за по-малки екрани */
+  }
+
+  .name-container h1 {
+    font-size: 1.5rem; /* Намаляване на размера на текста за по-малки екрани */
+  }
+}
