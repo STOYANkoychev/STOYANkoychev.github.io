@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const sectionLinks = document.querySelectorAll('.section-link');
 
   const sections = {
-    home: () => import('../Templates/home.js').then((module) => module.default(content)),
-    education: () => import('../Templates/education.js').then((module) => module.default(content)),
+    home: () => import('./Templates/home.js').then((module) => module.default(content)),
+    education: () => import('./Templates/education.js').then((module) => module.default(content)),
     'professional-experience': () =>
-      import('../Templates/professional-experience.js').then((module) => module.default(content)),
-    skills: () => import('../Templates/skills.js').then((module) => module.default(content)),
-    projects: () => import('../Templates/projects.js').then((module) => module.default(content)),
-    contact: () => import('../Templates/contact.js').then((module) => module.default(content)),
+      import('./Templates/professional-experience.js').then((module) => module.default(content)),
+    skills: () => import('./Templates/skills.js').then((module) => module.default(content)),
+    projects: () => import('./Templates/projects.js').then((module) => module.default(content)),
+    contact: () => import('./Templates/contact.js').then((module) => module.default(content)),
   };
 
   sectionLinks.forEach((link) => {
