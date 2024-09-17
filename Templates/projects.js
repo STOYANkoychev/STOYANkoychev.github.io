@@ -7,11 +7,11 @@ export default function (content) {
     <h3>Project 1: Portfolio Website</h3>
     <div class="video-wrapper">
       <video id="video1" width="1000" poster="/Images/PicProject1.png">
-        <source src="/Images/Presentation (Video).mp4" type="video/mp4">
+        <source src="/Images/Project1Video.mp4" type="video/mp4">
       
       </video>
       <button onclick="playVideo('video1')">Play</button>
-      <a href="https://github.com/STOYANkoychev/MyCV-Portfolio.git" target="_blank">View on GitHub</a>
+      <a href="https://github.com/STOYANkoychev/STOYANkoychev.github.io.git" target="_blank">View on GitHub</a>
     </div>
   </div>
 
@@ -19,7 +19,7 @@ export default function (content) {
     <h3>Project 2:  </h3> 
     <div class="video-wrapper">
       <video id="video2" width="1000" poster="/Images/PicProject2.png">
-        <source src="/Images/Coming Soon 2.mp4">
+        <source src="/Images/ComingSoon2.mp4">
        
       </video>
       <button onclick="playVideo('video2')">Play</button>
@@ -31,7 +31,7 @@ export default function (content) {
     <h3>Project 3: Task Management App</h3>
     <div class="video-wrapper">
       <video id="video3" width="1000" poster="/Images/PicProject3.png">
-        <source src="/Images/Coming Soon 3.mp4">
+        <source src="/Images/ComingSoon3.mp4">
        
       </video>
       <button onclick="playVideo('video3')">Play</button>
