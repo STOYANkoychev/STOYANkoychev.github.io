@@ -1,12 +1,3 @@
-.text_education {
-  display: flexbox;
-
-  text-align: center;
-
-  text-decoration: underline;
-  padding: 5px; /* По желание: добавя малко разстояние вътре в границата */
-  margin: 2 auto;
-}
 .course-name {
   margin: 2px;
 }

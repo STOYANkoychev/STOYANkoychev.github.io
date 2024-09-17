@@ -1,66 +1,50 @@
 export default function (content) {
   content.innerHTML = `
         <h2>Projects</h2>
-       <div class="slider-container">
-        <div class="slides" id="slides">
-            <div class="slide">
-                <a href="https://github.com/yourusername/project1" target="_blank">
-                    <img src="https://via.placeholder.com/800x400/0000FF/FFFFFF?text=Project+1" alt="Project 1">
-                    <div class="slide-title">Project 1: Web Development</div>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="https://github.com/yourusername/project2" target="_blank">
-                    <img src="https://via.placeholder.com/800x400/FF0000/FFFFFF?text=Project+2" alt="Project 2">
-                    <div class="slide-title">Project 2: Mobile App</div>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="https://github.com/yourusername/project3" target="_blank">
-                    <img src="https://via.placeholder.com/800x400/00FF00/FFFFFF?text=Project+3" alt="Project 3">
-                    <div class="slide-title">Project 3: AI Development</div>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="https://github.com/yourusername/project4" target="_blank">
-                    <img src="https://via.placeholder.com/800x400/FFFF00/FFFFFF?text=Project+4" alt="Project 4">
-                    <div class="slide-title">Project 4: Game Design</div>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="https://github.com/yourusername/project5" target="_blank">
-                    <img src="https://via.placeholder.com/800x400/FF00FF/FFFFFF?text=Project+5" alt="Project 5">
-                    <div class="slide-title">Project 5: Data Science</div>
-                </a>
-            </div>
-        </div>
-        <div class="nav-buttons">
-            <button id="prevBtn">&#10094; Previous</button>
-            <button id="nextBtn">Next &#10095;</button>
-        </div>
+          
+            <section id="projects">
+  <div class="project-container">
+    <h3>Project 1: Portfolio Website</h3>
+    <div class="video-wrapper">
+      <video id="video1" width="1000" poster="/Images/PicProject1.png">
+        <source src="/Images/Presentation (Video).mp4" type="video/mp4">
+      
+      </video>
+      <button onclick="playVideo('video1')">Play</button>
+      <a href="https://github.com/STOYANkoychev/MyCV-Portfolio.git" target="_blank">View on GitHub</a>
     </div>
+  </div>
 
-    <script>
-        const slides = document.getElementById('slides');
-        const prevBtn = document.getElementById('prevBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        let currentIndex = 0;
-        const totalSlides = slides.children.length;
+  <div class="project-container">
+    <h3>Project 2:  </h3> 
+    <div class="video-wrapper">
+      <video id="video2" width="1000" poster="/Images/PicProject2.png">
+        <source src="/Images/Coming Soon 2.mp4">
+       
+      </video>
+      <button onclick="playVideo('video2')">Play</button>
+      <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+    </div>
+  </div>
 
-        function showSlide(index) {
-            const offset = -index * 100; // Adjust slide position based on index
-            slides.style.transform = 'translateX(${offset}%)';
-        }
+  <div class="project-container">
+    <h3>Project 3: Task Management App</h3>
+    <div class="video-wrapper">
+      <video id="video3" width="1000" poster="/Images/PicProject3.png">
+        <source src="/Images/Coming Soon 3.mp4">
+       
+      </video>
+      <button onclick="playVideo('video3')">Play</button>
+      <a href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a>
+    </div>
+  </div>
 
-        prevBtn.addEventListener('click', () => {
-            currentIndex = (currentIndex === 0) ? totalSlides - 1 : currentIndex - 1;
-            showSlide(currentIndex);
-        });
+  <!-- Add more projects in the same way -->
+</section>
 
-        nextBtn.addEventListener('click', () => {
-            currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1;
-            showSlide(currentIndex);
-        });
-       </script>
+
+        
+
+      
     `;
 }
