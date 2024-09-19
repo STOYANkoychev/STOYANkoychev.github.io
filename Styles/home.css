@@ -1,36 +1,35 @@
 .home-content {
+  display: flex;
+  flex-direction: column;
   background-image: url('/Images/City\ .png');
   background-size: contain;
-  max-width: 1000px;
+  max-width: 80vw;
   margin: auto;
-  padding: 20px;
-  border: 1px #260641;
-  border-radius: 60%;
+  padding: 1vw;
+  border: 0.5vw #260641;
+  border-radius: 2%;
 }
 
 .text-info-home {
+  font-size: 1.2vw;
   text-align: center;
-  margin: 100px;
-  margin-top: 10px;
-  padding: 5px;
-  text-shadow: 5px;
-  font-size: large;
+  margin: 1vw;
+  margin-top: 2%;
+  padding: 1%;
+  box-shadow: 0 2px 5px rgba(53, 52, 52, 0.1); /* Лека сянка за ефект */
 }
-
 .social-icons {
   display: flex;
-  margin: 20px;
-
   justify-content: center;
+  align-items: center;
 }
-.social-icons a {
-  margin: 30px;
-  text-decoration: none;
-  color: #0f0a37;
-}
-h2 {
-  text-align: center;
-  text-decoration: underline;
 
-  margin-bottom: 20px;
+.social-icons a {
+  margin: 2vw; /* Малко разстояние между иконите */
+  max-width: 100%;
+  color: #1f1946;
+}
+.social-icons i {
+  font-size: 2vw; /* Размер на шрифта, равен на 4% от ширината на прозореца */
+  transition: font-size 0.3s ease; /* Плавен преход при промяна на размера */
 }

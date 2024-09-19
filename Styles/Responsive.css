@@ -1,14 +1,28 @@
 @media (max-width: 768px) {
-  .name-container,
-  .social-icons {
-    flex-direction: column; /* Подреждане вертикално на малки екрани */
+  .sections {
   }
 
-  .name-container img {
-    width: 100px; /* Намаляване на размера на изображенията за по-малки екрани */
+  .section-link {
+    width: 100%; /* Ширина  да бъде 100% от контейнера */
+    max-width: 300px; /* Максимална ширина на бутоните */
   }
+}
 
-  .name-container h1 {
-    font-size: 1.5rem; /* Намаляване на размера на текста за по-малки екрани */
+@media (max-width: 320px) {
+  .sections {
+    display: flex;
+    flex-wrap: wrap;
   }
+  .section-link {
+    font-size: 3vw; /* По-голям шрифт на много малки екрани */
+    transition: font-size 0.3s ease; /* Добавяне на плавна промяна при resize */
+  }
+}
+.education-list {
+  font-size: 1.2vw;
+
+  margin: 1vw;
+  margin-top: 2%;
+  padding: 1%;
+  box-shadow: 0 2px 5px rgba(53, 52, 52, 0.1); /* Лека сянка за ефект */
 }

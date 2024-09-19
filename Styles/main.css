@@ -11,27 +11,22 @@ body {
 }
 
 h2 {
+  font-size: 2vw;
   text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.section-link {
-  display: inline-block;
-  margin: 0 20px;
-
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.section-link:hover {
   text-decoration: underline;
+  color: #000000;
 }
+p {
+  font-size: 1vw;
+  text-align: center;
 
+  color: #000000;
+}
 .content {
-  padding: 100px;
+  padding: 4vw;
 
   background-image: url('/Images/4.png');
+  background-size: auto;
 }
 
 .experience-list {
