@@ -4,10 +4,15 @@ export default function (content) {
     
     <div class="company" id="fantastico">
        
+         <div class="content-wrapper">
+           <div class="company-img">
+               <img src="https://www.fantastico.bg/attachments/News/436/gallery/1024-768px-Fantastico-group-NOVINI_thumb-news.jpg" alt="Fantastico Group OOD">
+          </div>
           <h3>Fantastico Group OOD</h3>
-          <img src="https://assets.jobs.bg/assets/logo/2022-03-31/s_e6743a0ee573aea1806b1f9d22b09944.jpg" alt="Fantastico Group OOD">
+        </div>
+
           <div class="job-description" id="sys-administrator">
-             <h3>System Administrator</h3>
+             <h4>System Administrator</h4>
              <p>August 2023 - March 2024</p>
              <ul>
                 <li>Install, configure, and maintain the hardware and software required for the company's business and office systems.</li>
@@ -18,7 +23,7 @@ export default function (content) {
           </div> 
           <div class="job-description" id="accountant">
 
-            <h3>Accountant, Invoice Control</h3>
+            <h4>Accountant, Invoice Control</h4>
             <p>February 2012</p>
             <ul>
                 <li>Manages financial documentation, verifying and processing invoices to ensure accuracy and adherence to company standards.</li>
@@ -29,7 +34,7 @@ export default function (content) {
          </div>
 
          <div class="job-description" id="operator">
-            <h3>Senior Data Operator</h3>
+            <h4>Senior Data Operator</h4>
             <p>November 2009</p>
             <ul>
                 <li>Managed data entry tasks, ensuring the integrity and accuracy of information.</li>
@@ -39,18 +44,24 @@ export default function (content) {
             </ul>
          </div>
          <div class="job-description" id="technical-assistant">
-            <h3>Technical Assistant</h3>
+            <h4>Technical Assistant</h4>
             <p>October 2004</p>
             <ul>
                 <li>Technical support and ensured the proper proper functioning of the store's computer systems and equipment.</li>
             </ul>
          </div>
-    <div class="company" id="dunev-motor-sport">
-        <h3>ET Dunev Motor Sport</h3>
-        <img src="/Images/Dunev logo.png" width="100" height="80" id="dmsImage">
+         <div class="company" id="dunev-motor-sport">
+
+         <div class="content-wrapper">
+             <div class="company-img">
+                <img src="/Images/Dunev logo.png"  id="dmsImage">
+            </div>
+            <h3>ET Dunev Motor Sport</h3>
+        </div>
         <div class="job-description" id="salesman">
-            <h3>Seller of petroleum products</h3>
+            <h4>Seller of petroleum products</h4>
             <p>November 2001 - October 2004</p>
+            
             <ul>
                 <li>Managed the sale of petroleum products, maintained customer relations, and ensured product quality.</li>
             </ul>

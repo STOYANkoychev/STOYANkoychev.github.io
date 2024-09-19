@@ -1,9 +1,36 @@
-#dmsImage {
-  max-width: 100%; /* Прави изображенията responsive */
-  width: 150px; /* Примерна фиксирана ширина, можеш да я настроиш */
-  height: auto; /* Автоматично определяне на височината за запазване на пропорциите */
-}
-.job-description h3 {
-  font-size: large;
+.job-description h4 {
+  font-size: 1.5vw;
   text-decoration: underline;
+  text-align: center;
+}
+.content-wrapper {
+  display: flex; /* Подрежда елементите в един ред */
+  justify-content: start;
+  align-items: center; /* Подравнява елементите вертикално в центъра */
+  gap: 20vw; /* Разстояние между заглавието и изображението */
+  margin: 1vw;
+}
+
+.content-wrapper h3 {
+  display: inline-flex;
+  padding: 0.7vw;
+  font-size: 1.7vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 0.1vw solid rgb(16, 16, 54);
+}
+
+.company-img img {
+  width: 100%;
+  height: auto;
+  max-width: 12vw;
+  border: 1px solid rgb(89, 75, 75);
+  border-radius: 70%;
+  align-items: center;
+}
+.job-description p {
+  font-size: 1.3vw;
+  font-style: italic;
+}
+.job-description li {
+  text-align: start;
 }
