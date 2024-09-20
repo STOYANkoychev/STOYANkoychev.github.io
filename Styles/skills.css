@@ -1,15 +1,13 @@
 .skills-title {
-  display: inline-flexbox;
-
-  text-align: center;
-  text-decoration: underline;
-  margin-bottom: 50px;
+  margin-bottom: 5vw;
 }
 
 .skills-box {
-  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  max-width: 45vw;
   margin: 0 auto;
-  padding: 50px;
+  padding: 3vw;
   border: 1px solid #ccc;
   border-radius: 10px;
   background-image: url('/Images/City\ .png');
@@ -17,21 +15,20 @@
 }
 
 .skill {
-  margin-bottom: 25px;
+  margin-bottom: 2vw;
+  width: 100%;
 }
 
 .skill-bar {
   background-color: #ddd;
   border-radius: 5px;
   overflow: hidden;
-  position: relative;
-  height: 30px;
+
+  height: 2vw;
 }
 
 .skill-level {
-  display: flexbox;
-  height: 100%;
-  line-height: 30px;
+  font-size: 1.2vw;
   color: #fff;
   text-align: center;
   background-color: #4f778a;

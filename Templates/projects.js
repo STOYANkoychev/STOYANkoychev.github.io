@@ -6,7 +6,7 @@ export default function (content) {
   <div class="project-container">
     <h3>Project 1: Portfolio Website</h3>
     <div class="video-wrapper">
-      <video id="video1" width="1000" poster="/Images/PicProject1.png">
+      <video id="video1" width="600" poster="/Images/PicProject1.png">
         <source src="/Images/Project1Video.mp4" type="video/mp4">
       
       </video>
@@ -18,7 +18,7 @@ export default function (content) {
   <div class="project-container">
     <h3>Project 2:  </h3> 
     <div class="video-wrapper">
-      <video id="video2" width="1000" poster="/Images/PicProject2.png">
+      <video id="video2" width="600" poster="/Images/PicProject2.png">
         <source src="/Images/ComingSoon2.mp4">
        
       </video>
@@ -30,7 +30,7 @@ export default function (content) {
   <div class="project-container">
     <h3>Project 3: Task Management App</h3>
     <div class="video-wrapper">
-      <video id="video3" width="1000" poster="/Images/PicProject3.png">
+      <video id="video3" width="600" poster="/Images/PicProject3.png">
         <source src="/Images/ComingSoon3.mp4">
        
       </video>
