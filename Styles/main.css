@@ -10,7 +10,8 @@ body {
   padding: 0;
 }
 
-h2 {
+h2,
+.project-container h3 {
   font-size: 2vw;
   text-align: center;
   text-decoration: underline;

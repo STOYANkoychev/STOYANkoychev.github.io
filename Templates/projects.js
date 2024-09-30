@@ -10,7 +10,8 @@ export default function (content) {
         <source src="/Images/Project1Video.mp4" type="video/mp4">
       
       </video>
-      <button onclick="playVideo('video1')">Play</button>
+      <button  class="responsive-btn" onclick="playVideo('video1')">Play</button>
+     
       <a href="https://github.com/STOYANkoychev/STOYANkoychev.github.io.git" target="_blank">View on GitHub</a>
     </div>
   </div>
@@ -22,7 +23,7 @@ export default function (content) {
         <source src="/Images/ComingSoon2.mp4">
        
       </video>
-      <button onclick="playVideo('video2')">Play</button>
+      <button  class="responsive-btn"  onclick="playVideo('video2')">Play</button>
       <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
     </div>
   </div>
@@ -34,7 +35,7 @@ export default function (content) {
         <source src="/Images/ComingSoon3.mp4">
        
       </video>
-      <button onclick="playVideo('video3')">Play</button>
+      <button   class="responsive-btn" onclick="playVideo('video3')">Play</button>
       <a href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a>
     </div>
   </div>

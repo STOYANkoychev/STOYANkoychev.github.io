@@ -1,51 +1,58 @@
 #projects {
   display: flex;
   flex-direction: column;
+  gap: 5vw;
   margin: 0 auto;
+  max-width: 60vw;
 }
 
 .project-container {
-  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+
   margin: 2vw auto;
   background-image: url(/Images/City\ .png);
   border: 1px solid #ccc;
   border-radius: 1.5vw;
   padding: 1vw;
-  text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .video-wrapper {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.video-wrapper video {
+  width: 100%;
+  height: auto; /* Запазва пропорциите на видеото */
 }
 
-button {
-  display: flexbox;
-  margin-top: 3vw;
-  padding: 10px;
-  width: 120px;
-  height: 50px;
-  background-image: url(/Images/1.png);
-
-  border: none;
-  cursor: pointer;
-  font-size: 5vw;
+.responsive-btn {
+  margin-top: 3%;
+  padding: 0.5vh 3vw;
+  font-size: 1.5vw;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
   text-align: center;
+  border-radius: 5px;
 }
 
-button:hover {
-  background-color: #45a049;
+.responsive-btn:hover {
+  background-color: #0056b3;
 }
-
-a {
-  display: block;
-  margin-top: 10px;
-  color: #09223c;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.video-wrapper a {
+  display: inline-block;
+  width: 100%;
+  text-align: end;
 }
