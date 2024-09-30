@@ -33,6 +33,6 @@
 }
 .social-icons i,
 .social-icons-contact i {
-  font-size: 2vw; /* Размер на шрифта, равен на 4% от ширината на прозореца */
+  font-size: 2vw;
   transition: font-size 0.3s ease; /* Плавен преход при промяна на размера */
 }

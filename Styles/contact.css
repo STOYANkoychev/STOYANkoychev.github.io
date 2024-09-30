@@ -1,21 +1,23 @@
 .contact-form-container {
-
-   max-width: 40vw;
+  max-width: 40vw;
   margin: 0 auto;
   background-image: url('/Images/3Ligh.png');
   background-position: center;
-  padding: 20px;
+  padding: 2vw;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-group label {
-  display: block;
-  margin-bottom: 5px;
+  font-size: 1.3vw;
+  margin: 1vw;
+
+  padding: 1%;
   font-weight: bold;
   color: #333;
 }
@@ -24,27 +26,29 @@
 .form-group textarea {
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 0.5vw;
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.2vw;
 }
 
 .form-group textarea {
-  height: 150px;
+  height: 10vw;
   resize: vertical;
 }
 
 button {
-  width: 100%;
-  padding: 10px;
+  margin-top: 1%;
+  padding: 0.5vh 3vw;
+  font-size: 1.5vw;
+  width: auto;
+  max-width: 100%;
   background-color: #007bff;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.5vw;
   color: white;
   cursor: pointer;
-  margin-top: 10px;
 }
 
 button:hover {
