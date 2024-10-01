@@ -14,7 +14,8 @@
   text-align: center;
 
   margin: 2vw auto;
-  background-image: url(/Images/City\ .png);
+  background-image: url('/Images/City\ .png');
+  background-position: bottom;
   border: 1px solid #ccc;
   border-radius: 1.5vw;
   padding: 1vw;
@@ -38,6 +39,7 @@
 
 .responsive-btn {
   margin-top: 3%;
+  background-color: #0c2643;
   padding: 0.5vh 3vw;
   font-size: 1.5vw;
   width: auto;
@@ -49,9 +51,10 @@
 }
 
 .responsive-btn:hover {
-  background-color: #0056b3;
+  background-color: #194271;
 }
 .video-wrapper a {
+  color: #1f4775;
   display: inline-block;
   width: 100%;
   text-align: end;

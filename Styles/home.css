@@ -18,21 +18,3 @@
   padding: 1%;
   box-shadow: 0 2px 5px rgba(53, 52, 52, 0.1); /* Лека сянка за ефект */
 }
-.social-icons,
-.social-icons-contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-icons a,
-.social-icons-contact а {
-  margin: 2vw; /* Малко разстояние между иконите */
-  max-width: 100%;
-  color: #1f1946;
-}
-.social-icons i,
-.social-icons-contact i {
-  font-size: 2vw;
-  transition: font-size 0.3s ease; /* Плавен преход при промяна на размера */
-}

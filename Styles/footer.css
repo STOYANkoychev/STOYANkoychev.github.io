@@ -1,0 +1,40 @@
+.footer {
+  background-color: #030206; /* Фон на footer-а */
+
+  padding: 0.5vw 0; /* Отстояние около текста */
+  position: relative; /* Позициониране */
+  bottom: 0; /* Позициониране в долната част */
+  width: 100%; /* Широчина на footer-а */
+}
+
+.footer-content {
+  background-image: url(/Images/Footer.png);
+  background-size: 77%;
+  max-width: 100%; /* Максимална широчина на съдържанието */
+  margin: 0 auto; /* Центриране */
+  padding: 0 20px; /* Отстояние отстрани */
+}
+
+.social-icons,
+.social-icons-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a,
+.social-icons-contact а {
+  margin: 3vw; /* Малко разстояние между иконите */
+  max-width: 100%;
+  color: #b9b6c9;
+}
+.social-icons i,
+.social-icons-contact i {
+  font-size: 3vw;
+  transition: font-size 0.3s ease; /* Плавен преход при промяна на размера */
+}
+.footer-content p {
+  margin-bottom: 5vw;
+  text-align: end;
+  color: azure;
+}
