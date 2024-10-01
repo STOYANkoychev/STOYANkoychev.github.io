@@ -5,7 +5,7 @@ export default function (content) {
             <p class="text-info-home">I am a highly motivated and detail-oriented individual with a strong background in system administration, accounting, and data management.
              My extensive experience has equipped me with a keen eye for detail, effective problem-solving abilities, and the capacity to respond swiftly and effectively in high-pressure situations.
              I am currently pursuing a career transition into the IT field, learning the latest testing methodologies and continuously enhancing my skills to deliver reliable and high-performing software solutions.
-             My hobby is playing guitar, and i have a rock band.</p>
+             I enjoy playing the guitar in my free time, and I am also a member of a rock band.</p>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/stoyan-koychev-21382a326/" target="_blank"><i class="fa-brands fa-linkedin fa-3x fa-beat"></i></a>
                 
