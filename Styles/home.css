@@ -3,8 +3,9 @@
   flex-direction: column;
   background-image: url('/Images/City\ .png');
   background-size: contain;
-  max-width: 80vw;
+  max-width: 58vw;
   margin: auto;
+  margin-top: 5vw;
   padding: 1vw;
   border: 0.5vw #260641;
   border-radius: 2%;
@@ -14,7 +15,7 @@
   font-size: 1.2vw;
   text-align: center;
   margin: 1vw;
-  margin-top: 2%;
+  margin-top: 1vw;
   padding: 1%;
   box-shadow: 0 2px 5px rgba(53, 52, 52, 0.1); /* Лека сянка за ефект */
 }

@@ -34,6 +34,10 @@ export default function (content) {
             </div>
              <div class="skill">
                 
+                <div class="skill-bar"><div class="skill-level" style="width: ">Adaptability</div></div>
+            </div>
+             <div class="skill">
+                
                 <div class="skill-bar"><div class="skill-level" style="width: ">Accounting</div></div>
             </div>
         </div>
