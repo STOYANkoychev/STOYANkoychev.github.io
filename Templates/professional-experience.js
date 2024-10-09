@@ -1,6 +1,6 @@
 export default function (content) {
   content.innerHTML = `
-      <h2 class="title-prof-experience">Professional Experience</h2>
+      <h2  id="title-prof-experience"class="title-prof-experience">Professional Experience</h2>
     
     <div class="company" id="fantastico">
        

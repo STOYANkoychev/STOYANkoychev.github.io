@@ -1,7 +1,7 @@
 export default function (content) {
   content.innerHTML = `
         <div class="home-content">
-             <h2>About Me</h2>
+             <h2 id="about-me" >About Me</h2>
             <p class="text-info-home">I am a highly motivated, detail-oriented professional with a strong background in systems administration, accounting, and data management. 
             My extensive experience has honed my attention to detail, problem-solving skills, and ability to respond effectively in high-pressure situations. 
             I have excellent communication skills and am highly adept at working in collaborative team environments. 

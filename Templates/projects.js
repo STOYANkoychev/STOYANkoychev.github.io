@@ -1,6 +1,6 @@
 export default function (content) {
   content.innerHTML = `
-        <h2>Projects</h2>
+        <h2 id="proj-text">Projects</h2>
           
             <section id="projects">
   <div class="project-container">

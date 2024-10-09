@@ -1,6 +1,6 @@
 export default function (content) {
   content.innerHTML = `
-        <h2 class="skills-title" >Skills</h2>
+        <h2 id="skills-title" class="skills-title" >Skills</h2>
         <div class="skills-box">
             <div class="skill">
                 

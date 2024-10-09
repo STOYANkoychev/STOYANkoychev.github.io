@@ -1,6 +1,6 @@
 export default function (content) {
   content.innerHTML = `
-        <h2>Contact</h2>
+        <h2 id="contact-text-title">Contact</h2>
 
           <div class="email-contact"> 
            
