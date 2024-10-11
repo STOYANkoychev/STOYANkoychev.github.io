@@ -1,19 +1,19 @@
 .home-content {
   display: flex;
   flex-direction: column;
-  background-image: url('/Images/City\ .png');
-  background-size: contain;
+  background-image: url('/Images/Silk\ backround.png');
+  background-position: bottom;
   max-width: 58vw;
   margin: auto;
   margin-top: 5vw;
   padding: 1vw;
   border: 0.5vw #260641;
-  border-radius: 2%;
+  border-radius: 2vw;
 }
 
 .text-info-home {
   font-size: 1.2vw;
-  text-align: center;
+  text-align: justify;
   margin: 1vw;
   margin-top: 1vw;
   padding: 1%;

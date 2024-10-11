@@ -30,7 +30,7 @@
 }
 .social-icons i,
 .social-icons-contact i {
-  font-size: 3vw;
+  font-size: 4vw;
   transition: font-size 0.3s ease; /* Плавен преход при промяна на размера */
 }
 .footer-content p {

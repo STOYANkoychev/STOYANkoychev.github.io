@@ -5,7 +5,10 @@
 .skills-box {
   display: flex;
   flex-direction: column;
-  max-width: 45vw;
+  width: 100%;
+  max-width: 60vw;
+
+  height: auto;
   margin: 0 auto;
   padding: 3vw;
   border: 1px solid #ccc;
@@ -21,14 +24,12 @@
 
 .skill-bar {
   background-color: #ddd;
-  border-radius: 5px;
+  border-radius: 0.5vw;
   overflow: hidden;
-
-  height: 2vw;
 }
 
 .skill-level {
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   color: #fff;
   text-align: center;
   background-color: #4f778a;

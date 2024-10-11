@@ -8,17 +8,7 @@ export default function (content) {
           </div>
 
 
-          <div class="social-icons-contact">
-                <a href="https://www.linkedin.com/in/stoyan-koychev-21382a326/" target="_blank"><i class="fa-brands fa-linkedin fa-3x fa-beat"></i></a>
-                
-                <a href="https://github.com/STOYANkoychev" target="_blank"><i class="fab fa-github fa-3x fa-beat"></i></a>
-
-                <a href="https://www.twitter/" target="_blank"><i class="fab fa-twitter-square fa-3x fa-beat"></i></a>
-
-                <a href="https://www.facebook/" target="_blank"><i class="fab fa-facebook-square fa-3x fa-beat"></i></a>
-               
-
-        </div>  
+        
         <div class="contact-form-container">
         <h3>Contact Me</h3>
         <form action="mailto:stoyan.koychev.pro@gmail.com" method="post" enctype="text/plain">

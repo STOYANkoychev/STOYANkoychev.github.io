@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  font-size: 1rem; /* Default font size for desktops */
   background-image: url('/Images/1Header.png');
   height: 100%;
   background-size: cover;
@@ -16,7 +17,7 @@ h2,
 .project-container h3 {
   font-size: 2vw;
   text-align: center;
-  text-decoration: underline;
+
   color: #024f7b;
   margin: 1.5vw;
 }
@@ -24,11 +25,11 @@ p {
   font-size: 1vw;
   text-align: center;
 
-  color: #000000;
+  color: #0a0f35;
 }
 .content {
   min-height: 100vh; /* 100% от височината на екрана */
-  padding: 4vw;
+  padding: 5vw;
   background-image: url('/Images/Background\ content\ \ \ .png');
   background-size: auto;
 }

@@ -1,21 +1,60 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .content h2,
   .section-link {
-    width: 100%; /* Ширина  да бъде 100% от контейнера */
-    max-width: 300px; /* Максимална ширина на бутоните */
+    font-size: 2.4vw; /* Make headers larger */
+  }
+
+  .contact-form-container h3 {
+    font-size: 2.2vw; /* Make headers larger */
+  }
+
+  p,
+  .content p,
+  .content ul,
+  .email-contact p,
+  .text-info-home,
+  .form-group input,
+  .form-group textarea {
+    font-size: 1.7vw; /* Increase paragraph text size */
+  }
+
+  .skill-level,
+  .form-group label {
+    font-size: 1.8vw; /* Increase font size */
+  }
+
+  .skill {
+    width: 100%; /* Ensure full width on smaller screens */
   }
 }
 
-@media (max-width: 320px) {
-  .sections {
-    display: flex;
-    flex-wrap: wrap;
-  }
+@media screen and (max-width: 480px) {
+  .content h2,
   .section-link {
-    font-size: 3vw; /* По-голям шрифт на много малки екрани */
-    transition: font-size 0.3s ease; /* Добавяне на плавна промяна при resize */
+    font-size: 2.5vw; /* Make headers larger */
+  }
+
+  p,
+  .content p,
+  .content ul,
+  .email-contact p,
+  .text-info-home,
+  .form-group input,
+  .form-group textarea {
+    font-size: 2.2vw; /* Increase paragraph text size */
+  }
+  .skill-level,
+  .form-group label {
+    font-size: 2vw; /* Increase font size */
+
+    .skills-box {
+      width: 100%;
+      max-width: 60vw;
+      height: auto;
+      font-size: 2vw;
+    }
   }
 }
-
 .video-wrapper a,
 .education-list,
 .company {
